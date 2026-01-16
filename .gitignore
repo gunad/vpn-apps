@@ -1,0 +1,59 @@
+# ------------------------
+# Node / NPM
+# ------------------------
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# ------------------------
+# Expo / React Native (mobile)
+# ------------------------
+mobile/.expo/
+mobile/.expo-shared/
+mobile/android/
+mobile/ios/
+mobile/build/
+mobile/*.apk
+mobile/*.aab
+mobile/*.app
+
+# ------------------------
+# Mobile generated files
+# ------------------------
+mobile/output.css
+mobile/output.log
+
+# ------------------------
+# VS Code / IDE
+# ------------------------
+.vscode/
+*.swp
+*.swo
+
+# ------------------------
+# TypeScript / Babel / Cache
+# ------------------------
+mobile/*.tsbuildinfo
+mobile/.cache/
+temp/
+
+# ------------------------
+# Environment
+# ------------------------
+.env
+.env.local
+.env.*.local
+
+# ------------------------
+# OS files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Optional monorepo ignores
+# ------------------------
+**/node_modules/
+**/dist/
+**/build/
